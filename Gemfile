@@ -39,7 +39,7 @@ gem 'redis'
 
 # Need to stick to the same major version as the es server per https://github.com/ankane/searchkick/issues/1713#issuecomment-2829261681
 gem 'elasticsearch', '~> 8.0'
-gem 'searchkick'
+gem 'searchkick', '>= 6.0.0'
 
 gem 'stackprof'
 
