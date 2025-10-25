@@ -2,7 +2,7 @@
   "dependencies": {
     "@github/relative-time-element": "^4.0.0",
     "@hotwired/turbo-rails": "^8.0.5",
-    "ace-builds": "^1.4.12",
+    "ace-builds": "^1.43.3",
     "chart.js": "^4.0.0",
     "detect-browser": "^5.2.0",
     "js-sha1": "^0.7.0",
