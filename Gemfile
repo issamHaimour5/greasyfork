@@ -7,9 +7,9 @@ gem 'csv'
 gem 'daemons'
 gem 'devise'
 gem 'devise-i18n'
-gem 'devise-two-factor'
+gem 'devise-two-factor', '>= 6.2.0'
 gem 'diffy'
-gem 'google-analytics-data'
+gem 'google-analytics-data', '>= 0.7.2'
 gem 'i18n'
 gem 'levenshtein'
 gem 'mini_racer'
@@ -17,18 +17,18 @@ gem 'mysql2'
 gem 'public_suffix'
 gem 'puma'
 gem 'puma_worker_killer'
-gem 'rack-attack'
-gem 'rails', '~> 8.0.0'
+gem 'rack-attack', '>= 6.8.0'
+gem 'rails', '~> 8.0.3'
 gem 'rails-i18n'
 gem 'redcarpet'
 gem 'regexp_parser'
 gem 'rqrcode'
 gem 'sanitize'
-gem 'sidekiq', '< 8'
-gem 'sidekiq-scheduler'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq', '~> 8.0'
+gem 'sidekiq-scheduler', '>= 6.0.0'
+gem 'sidekiq-unique-jobs', '>= 8.0.11'
 gem 'sidekiq-worker-killer'
-gem 'strip_attributes'
+gem 'strip_attributes', '>= 2.0.1'
 gem 'user_agent_parser'
 gem 'vite_rails'
 gem 'will_paginate'
@@ -38,12 +38,12 @@ gem 'hiredis'
 gem 'redis'
 
 # Need to stick to the same major version as the es server per https://github.com/ankane/searchkick/issues/1713#issuecomment-2829261681
-gem 'elasticsearch', '~> 8.0'
-gem 'searchkick'
+gem 'elasticsearch', '~> 8.18', '>= 8.18.1'
+gem 'searchkick', '>= 6.0.0'
 
 gem 'stackprof'
 
-gem 'sentry-rails'
+gem 'sentry-rails', '>= 5.27.0'
 gem 'sentry-ruby'
 
 gem 'akismet'
@@ -51,13 +51,13 @@ gem 'detect_language'
 gem 'email_address'
 gem 'it'
 gem 'memoist'
-gem 'omniauth', '>= 1.6.0'
+gem 'omniauth', '>= 2.1.4'
 gem 'omniauth-github'
 gem 'omniauth-gitlab'
 gem 'omniauth-google-oauth2', '>= 0.4.1'
 gem 'omniauth-rails_csrf_protection'
 
-gem 'active_storage_validations'
+gem 'active_storage_validations', '>= 3.0.2'
 gem 'aws-sdk-s3', require: false
 gem 'image_processing'
 
@@ -82,7 +82,7 @@ group :development do
   gem 'rubocop-capybara', require: false
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.33.4', require: false
 end
 
 group :test do
@@ -90,5 +90,5 @@ group :test do
   gem 'capybara'
   gem 'minitest-around'
   gem 'mocha'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 4.36.0'
 end
