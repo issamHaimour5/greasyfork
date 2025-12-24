@@ -58,7 +58,7 @@ gem 'omniauth-google-oauth2', '>= 0.4.1'
 gem 'omniauth-rails_csrf_protection'
 
 gem 'active_storage_validations'
-gem 'aws-sdk-s3', require: false
+gem 'aws-sdk-s3', '>= 1.208.0', require: false
 gem 'image_processing'
 
 gem 'rails-observers'
