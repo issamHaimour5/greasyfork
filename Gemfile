@@ -30,7 +30,7 @@ gem 'sidekiq-unique-jobs'
 gem 'sidekiq-worker-killer'
 gem 'strip_attributes'
 gem 'user_agent_parser'
-gem 'vite_rails'
+gem 'vite_rails', '>= 3.0.20'
 gem 'will_paginate'
 gem 'will-paginate-i18n'
 
